@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package mypackage;
+
+service MyService {
+  rpc MyMethod(MyRequest) returns (MyResponse) {};
+}
+
+message MyRequest {
+  int32 a = 1;
+  string b = 2;
+}
+
+message MyResponse {
+  bool success = 1;
+  string message = 2;
+}
