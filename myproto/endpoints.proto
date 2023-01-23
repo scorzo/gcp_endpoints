@@ -4,7 +4,7 @@ package myproto;
 
 service MyService {
   rpc MyMethod(MyRequest) returns (MyResponse) {};
-}
+~
 
 message MyRequest {
   int32 a = 1;

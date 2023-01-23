@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b6083d2f-7a16-4198-a3fd-d13e0a0293a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/endpoints.proto" beforeDir="false" afterPath="$PROJECT_DIR$/myproto/endpoints.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/protoserver/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproto/endpoints.proto" beforeDir="false" afterPath="$PROJECT_DIR$/myproto/endpoints.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/protoserver" />
       <recent name="$PROJECT_DIR$/myproto" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -69,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673913564370</updated>
       <workItem from="1673913565653" duration="6722000" />
-      <workItem from="1674067864705" duration="18444000" />
+      <workItem from="1674067864705" duration="19507000" />
     </task>
     <servers />
   </component>
