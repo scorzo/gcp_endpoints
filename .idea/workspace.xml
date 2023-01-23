@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6083d2f-7a16-4198-a3fd-d13e0a0293a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/protoclient/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproto/endpoints.proto" beforeDir="false" afterPath="$PROJECT_DIR$/myproto/endpoints.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protoclient/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/protoclient/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protoserver/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/protoserver/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +63,22 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="go build GCP_endpoints/protoclient" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GCP_endpoints" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GCP_endpoints/protoclient" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/protoclient/main.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build GCP_endpoints/protoclient" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673913564370</updated>
       <workItem from="1673913565653" duration="6722000" />
-      <workItem from="1674067864705" duration="20632000" />
+      <workItem from="1674067864705" duration="24162000" />
     </task>
     <servers />
   </component>

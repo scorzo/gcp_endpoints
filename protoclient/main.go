@@ -3,6 +3,7 @@ package main
 import (
 	pb "GCP_endpoints/myproto"
 	"context"
+	"fmt"
 	"google.golang.org/grpc"
 )
 
@@ -30,6 +31,26 @@ func main() {
 	}
 
 	// Print the response
-	println(response.Success)
-	println(response.Message)
+	fmt.Println("Regular Client Request")
+	fmt.Println(response.Success)
+	fmt.Println(response.Message)
+
+	/*	// Use the reflection service to query the server for services and methods
+		refClient := reflection.NewServerReflectionClient(conn)
+		reqRef := &reflection.ServerReflectionRequest{
+			Host: "localhost:50051",
+		}
+		resStream, err := refClient.ServerReflectionInfo(context.Background(), reqRef)
+		if err != nil {
+			// handle error
+		}
+
+		fmt.Println("Reflection Request")
+		for {
+			res, err := resStream.Recv()
+			if err != nil {
+				break
+			}
+			fmt.Println(res)
+		}*/
 }
