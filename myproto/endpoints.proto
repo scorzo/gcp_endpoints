@@ -1,6 +1,6 @@
 syntax = "proto3";
-
-package mypackage;
+option go_package = "GCP_endpoints/myproto";
+package myproto;
 
 service MyService {
   rpc MyMethod(MyRequest) returns (MyResponse) {};
