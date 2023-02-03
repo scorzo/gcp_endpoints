@@ -1,0 +1,45 @@
+swagger: "2.0"
+info:
+  title: My Service
+  version: "1.0.0"
+host: myapi.endpoints.example.com
+schemes:
+  - https
+basePath: "/"
+paths:
+  "/myproto.MyService/MyMethod":
+    post:
+      operationId: MyMethod
+      x-google-backend:
+        address: https://mybackend.example.com/myproto.MyService/MyMethod
+      responses:
+        200:
+          description: Success
+          schema:
+            type: object
+            properties:
+              success:
+                type: boolean
+              message:
+                type: string
+      parameters:
+        - in: body
+          name: body
+          required: true
+          schema:
+            $ref: "#/definitions/MyRequest"
+definitions:
+  MyRequest:
+    type: object
+    properties:
+      a:
+        type: integer
+      b:
+        type: string
+  MyResponse:
+    type: object
+    properties:
+      success:
+        type: boolean
+      message:
+        type: string
